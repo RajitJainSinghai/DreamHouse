@@ -176,7 +176,7 @@ img.imageflex {
   top: 50px;
   left: 1px;
   width: 94%;
-  height: 110%;
+  
   font-size: 41px;
   font-weight: 700;
   color: white;
@@ -190,7 +190,7 @@ img.imageflex {
   top: -187%;
   left: 6%;
   width: 30%;
-  height: 98%;
+  
   padding: 2%;
   border-radius: 48px;
   font-size: 17px;
@@ -337,4 +337,5 @@ footer {
   margin: 8% 2% 0 2%;
   padding-bottom: 2%;
   border-top: 3px solid black;
+  
 }
