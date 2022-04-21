@@ -367,3 +367,39 @@ input[type='submit'] {
   padding: 0.7% 1%;
   margin: 1% 0 1% -170px;
 }
+
+
+
+/***********/
+
+.drop-down {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+
+  .drop-down:hover .dropdown-content {
+    display: block;
+    }
+
+    .dropdown-content a {
+      display: block;
+      color: #000000;
+      padding: 5px;
+      text-decoration: none;
+      }
+
+
+
+      .dropdown-content a:hover {
+        color: #FFFFFF;
+        background-color: #00A4BD;
+        }
