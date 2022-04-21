@@ -149,7 +149,7 @@ ul.imageContainer2 {
   justify-content: space-around;
 }
 li.imageMenus {
-  width: 585px;
+  width: 420px;
   display: grid;
 }
 img.image {
@@ -157,7 +157,7 @@ img.image {
   height: 380px;
 }
 img.imageflex {
-  width: 590px;
+  width: 420px;
   height: 765px;
 }
 
