@@ -1,189 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="stylesheet" href="style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HomePage</title>
-</head>
-
-<body>
-  <header>
-    <img class="logo" src="./images/headerLogo.svg" alt="" />
-    <div class="signupButton">
-      <a id="signup" href="#">Sign up /</a>
-      <a id="signup" href="#">Sign in</a>
-    </div>
-  </header>
-  <section class="main">
-    <img class="backgroundImg" src="./images/backgroundImg.png" alt="" />
-    <div class="Headings">
-      <h1 class="backgroundH1">
-        Discover a place <br />
-        you'll love to live
-      </h1>
-      <p class="backgroundParagraph">
-        Check out the the latest homes<br />
-        beased on your personal preferance.
-      </p>
-    </div>
-    <div class="searchResults">
-      <input class="searchBar" type="text" placeholder="Search" />
-      <img class="searchIcon" src="./images/searchIcon.svg" alt="" />
-    </div>
-
-    <div class="Category">
-      <h2 id="categoryH2">
-        Whether you're buying, selling or renting, <br />
-        we can help you move forward.
-      </h2>
-      <ul class="option">
-        <li class="selected">
-          <div class="card">
-            <img class="cardImg" clas src="./images/buyhouseImg.png" alt="" />
-            <h3 id="cardH3">Buy a home</h3>
-            <p id="cardcardParagraph">
-              Find your place with an immersive photo experience and the most
-              listings, including things you won’t find anywhere else <br />
-            </p>
-            <button class="SearchHomeButton">Search homes</button>
-          </div>
-        </li>
-
-        <li class="selected">
-          <div class="card">
-            <img class="cardImg" clas src="./images/sellHouseImg.png" alt="" />
-            <h3 id="cardH3">Sell a home</h3>
-            <p id="cardcardParagraph">
-              Whether you get a cash offer through<br />
-              Dream House Offers or choose to sell<br />
-              Traditionally, we can help you navigate<br />
-              a successful sale.
-            </p>
-            <button class="SearchHomeButton">See your options</button>
-          </div>
-        </li>
-
-        <li class="selected">
-          <div class="card">
-            <img class="cardImg" clas src="./images/RenthouseImg.png" alt="" />
-            <h3 id="cardH3">Rent a home</h3>
-            <p id="cardcardParagraph">
-              We’re creating a seamless online experience<br />
-              - from shopping on the largest rental<br />
-              Network, to applying, to paying rent.
-            </p>
-            <button class="SearchHomeButton">Find rentals</button>
-          </div>
-        </li>
-      </ul>
-
-      <h2 id="categoryH2">Explore home on Dream house</h2>
-      <div class="ImageHolder1">
-        <ul class="imageContainer">
-          <li class="imageMenus">
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">Florida, US</p>
-              </div>
-              <img class="imageflex" src="./images/img1.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-          </li>
-          <li class="imageMenus">
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">Texas, US</p>
-              </div>
-              <img class="image" src="./images/img2.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">New York, US</p>
-              </div>
-              <img class="image" src="./images/img3.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-          </li>
-          <li class="imageMenus">
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">Calorado, US</p>
-              </div>
-              <img class="image" src="./images/img4.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">Washington, US</p>
-              </div>
-              <img class="image" src="./images/img5.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-          </li>
-        </ul>
-
-        <ul class="imageContainer2">
-          <li class="imageMenus">
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">California, US</p>
-              </div>
-              <img class="image" src="./images/img6.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">Florida, US</p>
-              </div>
-              <img class="image" src="./images/img7.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-          </li>
-          <li class="imageMenus">
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">Georgia, US</p>
-              </div>
-              <img class="imageflex" src="./images/img8.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-          </li>
-          <li class="imageMenus">
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">Chicago, US</p>
-              </div>
-              <img class="image" src="./images/img9.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-            <div class="rf">
-              <div class="top-left">
-                <p id="b">Toronto, US</p>
-              </div>
-              <img class="image" src="./images/img10.png" alt="" />
-              <button id="vh">veiw Homes ></button>
-            </div>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomePage</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./images/headerLogo.svg" alt="" />
+      <div class="signupButton">
+        <a id="signup" href="#">Sign up /</a>
+        <a id="signup" href="#">Sign in</a>
       </div>
-      <button id="vm">veiw Homes ></button>
-    </div>
+    </header>
+    <section class="main">
+      <img class="backgroundImg" src="./images/backgroundImg.png" alt="" />
+      <div class="Headings">
+        <h1 class="backgroundH1">
+          Discover a place <br />
+          you'll love to live
+        </h1>
+        <p class="backgroundParagraph">
+          Check out the the latest homes<br />
+          beased on your personal preferance.
+        </p>
+      </div>
+      <div class="searchResults">
+        <input class="searchBar" type="text" placeholder="Search" />
+        <img class="searchIcon" src="./images/searchIcon.svg" alt="" />
+      </div>
 
-    <footer class="footer">
-      <a href="#">
-        <img class="footer-logo" src="./images/headerLogo.svg" />
-      </a>
-      <hr />
-      <p>
-        &copy; 2022 <a href="" class="javier">Tilahun Sema</a>. All rights
-        reserved.
-      </p>
-    </footer>
-  </section>
-</body>
+      <div class="Category">
+        <h2 id="categoryH2">
+          Whether you're buying, selling or renting, <br />
+          we can help you move forward.
+        </h2>
+        <ul class="option">
+          <li class="selected">
+            <div class="card">
+              <img class="cardImg" clas src="./images/buyhouseImg.png" alt="" />
+              <h3 id="cardH3">Buy a home</h3>
+              <p id="cardcardParagraph">
+                Find your place with an immersive photo experience and the most
+                listings, including things you won’t find anywhere else <br />
+              </p>
+              <button class="SearchHomeButton">Search homes</button>
+            </div>
+          </li>
 
+          <li class="selected">
+            <div class="card">
+              <img
+                class="cardImg"
+                clas
+                src="./images/sellHouseImg.png"
+                alt=""
+              />
+              <h3 id="cardH3">Sell a home</h3>
+              <p id="cardcardParagraph">
+                Whether you get a cash offer through<br />
+                Dream House Offers or choose to sell<br />
+                Traditionally, we can help you navigate<br />
+                a successful sale.
+              </p>
+              <button class="SearchHomeButton">See your options</button>
+            </div>
+          </li>
+
+          <li class="selected">
+            <div class="card">
+              <img
+                class="cardImg"
+                clas
+                src="./images/RenthouseImg.png"
+                alt=""
+              />
+              <h3 id="cardH3">Rent a home</h3>
+              <p id="cardcardParagraph">
+                We’re creating a seamless online experience<br />
+                - from shopping on the largest rental<br />
+                Network, to applying, to paying rent.
+              </p>
+              <button class="SearchHomeButton">Find rentals</button>
+            </div>
+          </li>
+        </ul>
+
+        <h2 id="categoryH2">Explore home on Dream house</h2>
+        <div class="ImageHolder1">
+          <ul class="imageContainer">
+            <li class="imageMenus">
+              <div class="top-left">Florida, US</div>
+              <img class="imageflex" src="./images/img1.png" alt="" />
+              <button id="vh">veiw more</button>
+            </li>
+            <li class="imageMenus">
+              
+                <p class="top-left">Texas, US</p>
+                <img class="image" src="./images/img2.png" alt="" />
+                <button id="vh">veiw more</button>
+                <div class="top-left">New York, US</div>
+                <img class="image" src="./images/img3.png" alt="" />
+                <button id="vh">veiw homes</button>
+              
+            </li>
+            <li class="imageMenus">
+              <p class="top-left">Calorado, US</p>
+              <img class="image" src="./images/img4.png" alt="" />
+              <button id="vh">veiw more</button>
+              <div class="top-left">Washington, US</div>
+              <img class="image" src="./images/img5.png" alt="" />
+              <button id="vh">veiw homes</button>
+            </li>
+          </ul>
+
+          <ul class="imageContainer2">
+            <li class="imageMenus">
+              <p class="top-left">Calorado, US</p>
+              <img class="image" src="./images/img6.png" alt="" />
+              <button id="vh">veiw more</button>
+              <div class="top-left">Florida, US</div>
+              <img class="image" src="./images/img7.png" alt="" />
+              <button id="vh">veiw homes</button>
+            </li>
+            <li class="imageMenus">
+              <p class="top-left">Calorado, US</p>
+
+              <img class="imageflex" src="./images/img8.png" alt="" />
+              <button id="vh">veiw homes</button>
+            </li>
+            <li class="imageMenus">
+              <p class="top-left">Chicago, US</p>
+              <img class="image" src="./images/img9.png" alt="" />
+              <button id="vh">veiw more</button>
+              <div class="top-left">Toronto, US</div>
+              <img class="image" src="./images/img10.png" alt="" />
+              <button id="vh">veiw homes</button>
+            </li>
+          </ul>
+        </div>
+        <button id="vm">veiw more</button>
+      </div>
+
+      <footer class="footer">
+        <a href="#">
+          <img class="footer-logo" src="./images/headerLogo.svg" />
+        </a>
+        
+        <p>
+          &copy; 2022 <a href="" class="Sema">Tilahun Sema</a>. All rights
+          reserved.
+        </p>
+      </footer>
+    </section>
+  </body>
 </html>
