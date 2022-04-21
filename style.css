@@ -244,8 +244,8 @@ input.searchBar1 {
 img.searchIcon1 {
   position: absolute;
   width: 20px;
-  top: 12px;
-  right: 14px;
+  top: 6px;
+  right: 101px;
 }
 .buy {
   width: 100%;
@@ -262,12 +262,18 @@ img.searchIcon1 {
   font-size: 31px;
   font-weight: normal;
   color: rgb(68, 68, 68);
+  
 }
 
 .buy ul.images {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-content: center;
+  width: 77%;
+  padding: 150px;
+  margin-bottom: -8%;
+    
 }
 
 .buy .images li.box {
@@ -338,4 +344,26 @@ footer {
   padding-bottom: 2%;
   border-top: 3px solid black;
   
+}
+
+.form {
+  margin: auto 4%;
+}
+
+input[type='text'] {
+  
+  width: 70%;
+  padding: 1% 0.5%;
+  margin: 1% 0 1% -51px;
+}
+
+input[type='submit'] {
+  cursor: pointer;
+  color: white;
+  background-color: #0d3cf5;
+  font-size: 20px;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.7% 1%;
+  margin: 1% 0 1% -170px;
 }
