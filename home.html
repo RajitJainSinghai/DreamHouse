@@ -5,18 +5,61 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="stylesheet" href="style.css" />
+  <script src="./scripts.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HomePage</title>
 </head>
 
 <body>
+
   <header>
     <img class="logo" src="./images/headerLogo.svg" alt="" />
     <div class="signupButton">
-      <a id="signup" href="#">Sign up /</a>
-      <a id="signup" href="#">Sign in</a>
+      <a id="signup" onclick="openForm()" href="#">Sign up /</a>
+      <a id="signup" onclick="openFormForSignIn()" href="#">Sign in</a>
     </div>
   </header>
+  <section class="popup" id="popupForm">
+    <div class="container">
+      <div class="menus">
+        <img class="cross" onclick="closeForm()" src="./images/cross.png" alt="">
+        <img class="imageLogos" src="./images/headerLogo.svg" alt="">
+        <p id="demo">SignUp</p>
+        <div class="inputField">
+          <p class="name">Name</p>
+          <input class="input" type="text" placeholder="Username">
+        </div>
+        <div class="inputField">
+          <p class="name">Email</p>
+          <input class="input" type="email" placeholder="Email">
+        </div>
+        <div class="inputField">
+          <p class="name">Password</p>
+          <input class="input" type="password" placeholder="password">
+        </div>
+        <button class="signup">Sign-up</button>
+      </div>
+    </div>
+  </section>
+  <section class="popup" id="popupFormSignIn">
+    <div class="container">
+      <div class="menus">
+        <img class="cross" onclick="closeFormSignIn()" src="./images/cross.png" alt="">
+        <img class="imageLogos" src="./images/headerLogo.svg" alt="">
+        <p id="demo">SignIn</p>
+
+        <div class="inputField">
+          <p class="name">Email</p>
+          <input class="input" type="email" placeholder="Email">
+        </div>
+        <div class="inputField">
+          <p class="name">Password</p>
+          <input class="input" type="password" placeholder="password">
+        </div>
+        <button class="signup">Sign-In</button>
+      </div>
+    </div>
+  </section>
   <section class="main">
     <img class="backgroundImg" src="./images/backgroundImg.png" alt="" />
     <div class="Headings">
@@ -170,19 +213,22 @@
           </li>
         </ul>
       </div>
-      <button id="vm">veiw Homes ></button>
+      <center>
+        <button id="vm">veiw Homes ></button>
+      </center>
     </div>
-
-    <footer class="footer">
-      <a href="#">
-        <img class="footer-logo" src="./images/headerLogo.svg" />
-      </a>
-      <hr />
-      <p>
-        &copy; 2022 <a href="" class="javier">Tilahun Sema</a>. All rights
-        reserved.
-      </p>
-    </footer>
+    <center>
+      <footer class="footer">
+        <a href="#">
+          <img class="footer-logo" src="./images/headerLogo.svg" />
+        </a>
+        <hr />
+        <p>
+          &copy; 2022 <a href="" class="javier">TECHIS .IO</a>. All rights
+          reserved.
+        </p>
+      </footer>
+    </center>
   </section>
 </body>
 

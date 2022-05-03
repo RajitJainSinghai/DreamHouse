@@ -70,15 +70,7 @@ p.backgroundParagraph {
 /*************************
 *****Section:Options *****
 *************************/
-/* .option h2 {
-  font-size: 31px;
-  font-weight: normal;
-  color: rgb(68, 68, 68);
-  margin-bottom: 5%;
-  position: relative;
-  margin-block-start: 807px;
-  margin-inline-start: 38px;
-} */
+
 .Category {
   width: 90%;
   margin: 40px auto;
@@ -149,7 +141,7 @@ ul.imageContainer2 {
   justify-content: space-around;
 }
 li.imageMenus {
-  width: 585px;
+  width: 400px;
   display: grid;
 }
 img.image {
@@ -157,7 +149,7 @@ img.image {
   height: 380px;
 }
 img.imageflex {
-  width: 590px;
+  width: 400px;
   height: 765px;
 }
 
@@ -189,52 +181,12 @@ p#b {
   font-weight: 500;
   width: 100%;
 }
-@media screen and (max-width: 900px) {
-  li.imageMenus {
-    width: 421px;
-    padding-bottom: 20px;
-  }
-  img.image {
-    padding-bottom: 20px;
-  }
-  img.imageflex {
-    width: 100%;
-  }
-}
-
-/* .top-left {
-  position: relative;
-  top: 50px;
-  left: 1px;
-  width: 94%;
-  height: 110%;
-  font-size: 41px;
-  font-weight: 700;
-  color: white;
-  border-radius: 7px;
-  background: linear-gradient(180deg, #000, transparent);
-} */
-
-/* #vh {
-  cursor: pointer;
-  position: relative;
-  top: -187%;
-  left: 6%;
-  width: 30%;
-  height: 98%;
-  padding: 2%;
-  border-radius: 48px;
-  font-size: 17px;
-  border: 0px solid;
-  background-color: hsla(0, 0%, 100%, 0.8);
-} */
 
 #vm {
   cursor: pointer;
   position: relative;
   top: -187%;
-  left: 42%;
-  width: 14%;
+ text-align: center;
   height: 98%;
   padding: 2%;
   border-radius: 13px;
@@ -329,6 +281,90 @@ img.searchIcon1 {
   margin: 4% 0 3% 5%;
 }
 
+footer {
+  margin: 8% 2% 0 2%;
+  padding-bottom: 2%;
+  border-top: 3px solid black;
+}
+a.javier {
+  color: #a76c00;
+  text-decoration: none;
+}
+/*************** Signup*************/
+section#popupForm, section#popupFormSignIn {
+  display: none;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  z-index: 1;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  width: 100%;
+  position: absolute;
+}
+.menus {
+  position: absolute;
+  top: 5vh;
+  z-index: 1;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+}
+img.imageLogos {
+  width: 140px;
+}
+input.input {
+  width: 75%;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 20px;
+  border: 0.1px solid #37373e47;
+}
+p.name {
+  margin: 10px auto 3px;
+  text-align: start;
+  width: 80%;
+}
+button.signup {
+  margin: 30px 0;
+  width: 90%;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 20px;
+  background: blue;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+img.cross {
+  position: absolute;
+  right: 0;
+  width: 20px;
+}
+/********************* Media Screen ************************/
+
+@media screen and (max-width: 900px) {
+  li.imageMenus {
+    width: 421px;
+    padding-bottom: 20px;
+  }
+
+  img.image {
+    padding-bottom: 20px;
+  }
+
+  img.imageflex {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .searchResults1 {
     position: absolute;
@@ -337,12 +373,24 @@ img.searchIcon1 {
     margin: 0 5%;
     display: flex;
   }
+
   .head {
     margin-top: 160px;
   }
+
   input.searchBar1 {
     border: 1px solid;
     width: 100%;
+  }
+  .Headings {
+    top: 10vh;
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+  .menus {
+    top: 40px;
+
   }
 }
 
@@ -362,10 +410,4 @@ img.searchIcon1 {
   .buy .head {
     margin: 21% 6% 0 8%;
   }
-}
-
-footer {
-  margin: 8% 2% 0 2%;
-  padding-bottom: 2%;
-  border-top: 3px solid black;
 }
