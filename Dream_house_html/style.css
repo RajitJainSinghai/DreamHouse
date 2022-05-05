@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+img.header-logo {
+    width: 130px;
+}
+input.search-bar {
+    border: 1px solid black;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: black;
+}
+.search {
+    position: relative;
+}
+img.search-icon {
+    position: absolute;
+    width: 30px;
+    right: 0;
+    top: 5px;
+}
+.user-account {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+img.images {
+    width: 100%;
+}
+li.menu {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+
+    width: 400px;
+}
+ul.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+img.favouriteIcon {
+    position: absolute;
+}
+p#price, p#space, p#place {
+    margin: 10px;
+    font-size: 18px;
+}
