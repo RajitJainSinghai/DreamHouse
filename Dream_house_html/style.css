@@ -34,6 +34,7 @@ img.search-icon {
 }
 img.images {
     width: 100%;
+    display: block;
 }
 li.menu {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -51,7 +52,9 @@ ul.container {
 
 img.favouriteIcon {
     position: absolute;
-}
+    margin-left: 140px;
+    }
+
 p#price, p#space, p#place {
     margin: 10px;
     font-size: 18px;
