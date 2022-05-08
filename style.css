@@ -204,7 +204,6 @@ p#b {
   margin-top: 110px;
 }
 .header2 {
-  position: fixed;
   display: flex;
   justify-content: space-between;
   top: 0;
@@ -406,6 +405,49 @@ button.getYourOffer {
   color: white;
   border: 0;
   border-radius: 5px;
+}
+/************************* Houses*****************************/
+section.house {
+  width: 90%;
+  margin: 20px auto;
+}
+a.goback {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.goBackButton {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+img.house1 {
+  width: 100%;
+}
+.house_main_img {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+img.house_img {
+  width: 250px;
+  margin: 20px 0;
+}
+li.house_menus {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3vw;
+  margin: 30px 0;
+}
+button.get {
+  color: white;
+  background: blue;
+  border: 0;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
 /********************* Media Screen ************************/
