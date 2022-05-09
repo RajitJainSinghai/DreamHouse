@@ -283,15 +283,6 @@ img.searchIcon1 {
   margin: 4% 0 3% 5%;
 }
 
-footer {
-  margin: 8% 2% 0 2%;
-  padding-bottom: 2%;
-  border-top: 3px solid black;
-}
-a.javier {
-  color: #a76c00;
-  text-decoration: none;
-}
 /*************** Signup*************/
 section#popupForm,
 section#popupFormSignIn {
@@ -449,6 +440,19 @@ button.get {
   border-radius: 10px;
   font-size: 20px;
 }
+/********************************** Footer **************************/
+footer {
+  margin: 8% 2% 0 2%;
+  padding-bottom: 2%;
+  border-top: 3px solid black;
+}
+a.javier {
+  color: #a76c00;
+  text-decoration: none;
+}
+img.footer-logo {
+  width: 350px;
+}
 
 /********************* Media Screen ************************/
 
@@ -509,6 +513,20 @@ button.get {
     padding: 6px 7px;
     position: inherit;
   }
+  .goBackButton {
+    margin-top: 100px;
+  }
+  button.get {
+    color: white;
+    background: blue;
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 11px;
+  }
+  img.footer-logo {
+    width: 150px;
+  }
 }
 
 @media screen and (max-width: 349px) {
@@ -527,5 +545,11 @@ button.get {
   .buy .head {
     width: 90%;
     margin: 25vh auto;
+  }
+  img.house1 {
+    width: 250px;
+    margin: 20px 0;
+    /* width: 100%; */
+    height: 270px;
   }
 }
